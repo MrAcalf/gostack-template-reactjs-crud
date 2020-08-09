@@ -17,8 +17,8 @@ export const Container = styled.div<IFoodPlateProps>`
     text-align: center;
 
     ${props =>
-      !props.available &&
-      css`
+    !props.available &&
+    css`
         opacity: 0.3;
       `};
 
@@ -111,7 +111,7 @@ export const Container = styled.div<IFoodPlateProps>`
           left: 0;
           right: 0;
           bottom: 0;
-          background-color: #c72828;
+          background-color: #c72821;
           -webkit-transition: 0.4s;
           transition: 0.4s;
           border-radius: 16px;
